@@ -1,0 +1,143 @@
+body {
+background-color: black;
+color: white;
+    font-family: Verdana,sans-serif;
+height: 2000px;
+}
+
+.menu-side{
+height: 100%;
+width: 15%;
+float: left;
+margin: auto;
+overflow: hidden;
+background-color: #222;
+color: white;
+text-align: center;
+position: fixed;
+}
+
+.menu-side .container{
+height: 100%;
+width: 100%;
+}
+
+.menu-side .container .image-box img{
+width: 100%;
+}
+
+.menu-side .container .icon {
+display: block;
+float: left;
+width: 100%;
+margin: 15px 0px;
+}
+
+.menu-side .container .icon:hover{
+cursor: pointer;
+background-color: black;
+}
+
+.content{
+height: 100%;
+width: 85%;
+float: right;
+overflow: hidden;
+color: white;
+text-align: center;
+}
+
+
+.content  .home{
+background:url("../images/Capture1.PNG");
+width: 100%;
+height: 40%;
+background-position: center;
+-webkit-background-size: cover;
+background-size: cover;
+position: relative;
+}
+
+.content .home .name{
+background-color: #222;
+ opacity: .7;
+position: absolute;
+top: 290px;
+width: 100%;
+text-align: center;
+}
+
+    .personal{
+padding: 20px;
+font-family: cursive;
+}
+
+.personal .me{
+text-align: left;
+}
+
+.personal .me h2{
+text-decoration: underline;
+}
+.personal .me p{
+line-height: 23px;
+}
+
+.personal .skills{
+overflow: hidden;
+width: 100%;
+}
+.personal .skills h2{
+text-decoration: underline;
+text-align: left;
+}
+.sss{
+width: 20%;
+    float: left;
+margin: 55px 0px;
+font-size: 25px;
+    font-family: monospace;
+}
+.progress-container{
+    width: 80%;
+float: right;
+height: 30px;
+background-color: gainsboro;
+text-align: center;
+margin: 55px 0px;
+}
+
+.progress-container .progressbar{
+background-color: #616161;
+    height: 100%;
+}
+
+
+.projects{
+width: 100%;
+background-color: gainsboro;
+height: 100px;
+    overflow: hidden;
+    margin: 20px 0px;
+    color: black;
+    font-family: Tahoma;
+}
+
+.projects .box{
+float: left;
+width: 25%;
+}
+
+.content button{
+padding: 20px;
+float: left;
+}
+.content button:hover,focus{
+    background-color: darkgrey;
+    cursor: pointer;
+outline: none;
+}
+
+
+
+
